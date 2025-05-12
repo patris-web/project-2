@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/rating.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Single-Product</title>
+</head>
+<body>
+    <div class="modal" id="modal">
+        <img id="imagemodal">
+        <span class="close" onclick="closemodal()">&times;</span>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="../images/logo1.jpg">
+        </div>
+        <div class="p-logo">
+            <h2>Welcome to the E-SHOP</h2> 
+        </div>
+    </div>
+    <div class="menu">
+        <a href="index.html">Main Page</a>
+        <a href="products.html">Products Preview</a>
+    </div>
+    <div class="content">
+        <div class="col">
+            <img src="../images/image1.jpeg" onclick="showimage('../images/image1.jpeg')">
+            <img src="../images/image6.jpg" onclick="showimage('../images/image6.jpg')">
+            <img src="../images/image7.jpg" onclick="showimage('../images/image7.jpg')">
+            <img src="../images/image8.jpeg" onclick="showimage('../images/image8.jpeg')">
+        </div>
+        <div class="col">
+            <img id="mainimage" src="../images/image1.jpeg" >
+        </div>
+        <div class="col">
+            <p>Main Characteristics:</p>
+            <ul>
+                <li>Μοντέλο Επεξεργαστή A15 Bionic</li>
+                <li>Μνήμη RAM 4 GB</li>
+                <li>Μέγεθος οθόνης 6.1"</li>
+                <li>Χωρητικότητα 128 GB</li>
+                <li>Κάμερα 12MP</li>
+                <li>Selfie κάμερα 12MP f/2.2, 23mm (wide)</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyrights by GeorgePatris&copy;</p>
+        <p>Find us on :</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <script src="../javasc/primages.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,0.7);
+    padding:20px 0 20px 20px;
+}
+
+.container img{
+    width: 350px;
+    height: auto;
+    margin: 0;
+    box-shadow: 3px 7px 3px black;
+}
+
+.col{
+    box-shadow: 3px 7px 3px black;
+    margin: 20px;
+}
+
+.perigrafh{
+    text-align: center;
+    padding: 10px;
+    background-color: silver;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 65%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight:bold;
+    text-shadow: 1px 2px 3px black;
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
